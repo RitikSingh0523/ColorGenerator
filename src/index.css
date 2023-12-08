@@ -1,0 +1,32 @@
+.color-light{
+  color: white;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-top-right-radius:6px ;
+  border-bottom-right-radius:6px ;
+}
+input[type='text'] {
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  max-width: 200px;
+}
+input[type='color'] {
+  height: 35px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.colors{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+.color{
+  width: 16.667%;
+  height: 180px;
+}
